@@ -11,10 +11,10 @@ public class GenericPage implements Stable
 {
 	public WebDriver driver;
 	
-//	public GenericPage (WebDriver driver)//Constructor
-//	{
-//		this.driver=driver;
-//	}
+	public GenericPage (WebDriver driver)//Constructor
+{
+	this.driver=driver;
+	}
 	
 	public void verifyTitle(String etitle,long ETO)
 	{

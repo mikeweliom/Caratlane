@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="Scribble.validLoginLogout"/>
+      <class name="Scribble.SignUp"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

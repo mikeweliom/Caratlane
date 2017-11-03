@@ -1,5 +1,7 @@
 package Generic;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,7 +16,8 @@ public abstract class Ground implements Stable
 	{
 		System.setProperty(GECKO_KEY, GECKO_VALUE);
 		driver=new FirefoxDriver();
-		driver.get("https://www.caratlane.com");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("https://www.caratlane.com/");
 	}
 	@AfterMethod
 	public void closeappln()
