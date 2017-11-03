@@ -20,7 +20,7 @@ public class validLoginLogout extends Ground
 		lp.setPassword("manager");
 		
 		lp.clickLogin();
-		 
+		
 	}
 	
 }
