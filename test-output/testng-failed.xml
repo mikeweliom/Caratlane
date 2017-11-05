@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Scribble.SignUp">
+      <class name="Scribble.JewelleryDrop">
         <methods>
-          <include name="closeappln"/>
           <include name="openappln"/>
-          <include name="signUp"/>
+          <include name="jewelleryDropSelect"/>
         </methods>
-      </class> <!-- Scribble.SignUp -->
+      </class> <!-- Scribble.JewelleryDrop -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="Scribble.validLoginLogout">
+      <class name="Scribble.SignUp">
         <methods>
           <include name="closeappln"/>
           <include name="openappln"/>
-          <include name="testValidLoginLogout"/>
+          <include name="signUp"/>
         </methods>
-      </class> <!-- Scribble.validLoginLogout -->
+      </class> <!-- Scribble.SignUp -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

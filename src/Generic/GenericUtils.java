@@ -1,7 +1,12 @@
 package Generic;
+import java.awt.AWTException;
+import java.awt.Robot;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+
+import com.thoughtworks.selenium.webdriven.commands.KeyEvent;
 
 public class GenericUtils
 {
@@ -23,5 +28,11 @@ public class GenericUtils
 		s.selectByVisibleText(st);
 	}
 	
+	public void pressEnterButton() throws AWTException
+	{
+		Robot r=new Robot();
+		r.keyPress(java.awt.event.KeyEvent.VK_ENTER);
+		r.keyRelease(java.awt.event.KeyEvent.VK_ENTER);
+	}
 	
 }
