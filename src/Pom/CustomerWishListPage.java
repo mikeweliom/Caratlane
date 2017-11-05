@@ -23,4 +23,5 @@ public class CustomerWishListPage extends GenericPage
 	{
 		verifyTitle(etitle, ETO);
 	}
+
 }
