@@ -1,4 +1,4 @@
-package Generic;
+package com.Caratlane.Generic;
 
 import java.io.FileInputStream;
 

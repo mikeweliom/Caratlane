@@ -1,17 +1,17 @@
-package Scribble;
+package com.Caratlane.Scribble;
 
 import java.awt.AWTException;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import Generic.GenericUtils;
-import Generic.Ground;
-import Pom.CatalogSearchResultPage;
-import Pom.CustomerWishListPage;
-import Pom.HomePage;
+import com.Caratlane.Generic.GenericUtils;
+import com.Caratlane.Generic.Ground;
+import com.Caratlane.Pom.CatalogSearchResultPage;
+import com.Caratlane.Pom.CustomerWishListPage;
+import com.Caratlane.Pom.HomePage;
 
-@Listeners(Generic.iTest.class)
+@Listeners(com.Caratlane.Generic.iTest.class)
 public class SearchAddWishlistCheck extends Ground
 {
 	@Test

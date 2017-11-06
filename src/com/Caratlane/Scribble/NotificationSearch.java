@@ -1,12 +1,12 @@
-package Scribble;
+package com.Caratlane.Scribble;
 
 import org.testng.annotations.Test;
 
-import Generic.Ground;
-import Pom.CatalogSearchResultPage;
-import Pom.HomePage;
-import Pom.NotificationPage;
-import Pom.SolitaireJewelleryForWomen;
+import com.Caratlane.Generic.Ground;
+import com.Caratlane.Pom.CatalogSearchResultPage;
+import com.Caratlane.Pom.HomePage;
+import com.Caratlane.Pom.NotificationPage;
+import com.Caratlane.Pom.SolitaireJewelleryForWomen;
 
 public class NotificationSearch extends Ground
 {

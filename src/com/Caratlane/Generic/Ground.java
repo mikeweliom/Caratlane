@@ -1,4 +1,4 @@
-package Generic;
+package com.Caratlane.Generic;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 
 public abstract class Ground implements Stable
 {
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	@BeforeMethod
 	public void openappln()

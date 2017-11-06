@@ -1,14 +1,14 @@
-package Scribble;
-
-import Generic.Ground;
-import Pom.CreateAnAccount;
-import Pom.HomePage;
-import Pom.MyAccountPage;
+package com.Caratlane.Scribble;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(Generic.iTest.class)
+import com.Caratlane.Generic.Ground;
+import com.Caratlane.Pom.CreateAnAccount;
+import com.Caratlane.Pom.HomePage;
+import com.Caratlane.Pom.MyAccountPage;
+
+@Listeners(com.Caratlane.Generic.iTest.class)
 public class SignUp extends Ground
 {
 	@Test

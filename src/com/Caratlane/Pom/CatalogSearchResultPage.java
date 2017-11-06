@@ -1,12 +1,12 @@
-package Pom;
+package com.Caratlane.Pom;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Generic.GenericPage;
-import Generic.Ground;
+import com.Caratlane.Generic.GenericPage;
+import com.Caratlane.Generic.Ground;
 
 public class CatalogSearchResultPage extends GenericPage
 {

@@ -1,4 +1,4 @@
-package Generic;
+package com.Caratlane.Generic;
 import java.awt.AWTException;
 import java.awt.Robot;
 
@@ -8,21 +8,21 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.thoughtworks.selenium.webdriven.commands.KeyEvent;
 
-public class GenericUtils
+public class GenericUtils extends Ground
 {
-	public void selectByIndex (WebElement ele, int n)
+	public static void selectByIndex (WebElement ele, int n)
 	{
 		Select s= new Select(ele);
 		s.selectByIndex(n);
 	}
 	
-	public void selectByValue (WebElement ele, String c)
+	public static void selectByValue (WebElement ele, String c)
 	{
 		Select s= new Select(ele);
 		s.selectByValue(c);
 	}
 	
-	public void selectByVisibleText (WebElement ele, String st)
+	public static void selectByVisibleText (WebElement ele, String st)
 	{
 		Select s= new Select(ele);
 		s.selectByVisibleText(st);
@@ -35,4 +35,9 @@ public class GenericUtils
 		r.keyRelease(java.awt.event.KeyEvent.VK_ENTER);
 	}
 	
+	public static void actionClassHover(WebElement ele)
+	{
+		Actions a=new Actions(driver);
+		a.moveToElement(ele).perform();
+	}
 }

@@ -1,10 +1,10 @@
-package Scribble;
+package com.Caratlane.Scribble;
 
 import org.testng.annotations.Test;
 
-import Generic.Ground;
-import Pom.EngagementRingPage;
-import Pom.HomePage;
+import com.Caratlane.Generic.Ground;
+import com.Caratlane.Pom.EngagementRingPage;
+import com.Caratlane.Pom.HomePage;
 
 public class JewelleryDrop extends Ground
 {
